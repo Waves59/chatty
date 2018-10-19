@@ -31,7 +31,7 @@ var socket = io();
                     }.bind(this));
                 var infoMsg = {
                     "type": "info",
-                    "msg": "User " + socketId + " has joined"
+                    "msg": "L'utilisateur '" + socketId + "' est présent"
                 }
                 this.messages.push(infoMsg);
             }.bind(this));

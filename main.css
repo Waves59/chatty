@@ -3,8 +3,7 @@
 }
 .userlist {
    overflow-y: scroll;
-    height: 800px;
-    border: 1px solid dimgray;
+    height: 100vh;
 }
 .info {
     font-size: 12px;
